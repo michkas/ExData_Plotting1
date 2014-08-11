@@ -4,6 +4,8 @@
 ##------------------------------------------------------------------------------
 
 ## Reading data into powerData dataframe and processing it.
+## It is assumed that the dataset file is extracted in a subfolder
+## ... of the working directory called 'data'.
 ##------------------------------------------------------------------------------
 powerData <- read.csv("./data//household_power_consumption.txt",sep = ";",
                       comment.char = '', na.strings = "?",
